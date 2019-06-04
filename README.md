@@ -2,9 +2,6 @@
 # SGQRCode
 
 
-* `QQ群：825339547`
-
-* `温馨提示：v3.0.0 Block 取代 Delegate`
 
 
 ## 主要内容的介绍
@@ -23,12 +20,6 @@
 
 * `扫描界面仿微信（请根据项目需求，自行布局或调整）`<br>
 
-
-## SGQRCode 集成
-
-* 1、CocoaPods 导入 pod 'SGQRCode', '~> 3.0.1'
-
-* 2、下载、拖拽 “SGQRCode” 文件夹到工程中
 
 
 ## 代码介绍 (详细使用，请参考 Demo)
@@ -97,30 +88,3 @@
 * iOS 扫描支持 7.0+；从相册中读取二维码支持 8.0+；因此，CocoaPods 版本最低支持 8.0+
 
 
-## 更新介绍
-
-* 2016-09-30 ：新增从相册中读取二维码功能
-
-* 2016-10-27 ：解决从相册中读取二维码，取消选择返回时，图层卡死问题（修改了创建扫描边框问题）
-
-* 2017-01-29 ：对扫描二维码部分代码的封装；扫描视图布局采用 CALayer
-
-* 2017-03-21 ：v2.0.0 使用继承的思想进行二维码扫描管理
-
-* 2017-05-16 ：v2.0.5 使用封装的思想进行二维码扫描管理
-
-* 2017-06-26 ：v2.1.0 加入 CocoaPods 管理
-
-* 2017-08-17 ：v2.1.5 新增根据光线强弱判断是否打开手电筒
-
-* 2017-08-23 ：v2.1.6 扫描界面使用 UIBezierPath 布局且可根据不同需求实现自定义（扫描线条以及网格样式）
-
-* 2018-02-08 ：v2.2.0 新增新浪微博示例、新增从相册中读取二维码失败回调函数以及分类名称的更换
-
-* 2018-11-09 ：v3.0.0 版本升级 Block 取代 Delegate（具体相关信息介绍请在 [releases](https://github.com/kingsic/SGQRCode/releases) 中查看）
-
-* 2018-11-27 ：v3.0.1 SGQRCodeObtain 类中新增二维码生成方法
-
-
-## License
-SGQRCode is released under the Apache License 2.0. See [LICENSE](https://github.com/kingsic/SGQRCode/blob/master/LICENSE) for details.
