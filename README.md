@@ -1,6 +1,6 @@
 
 # SGQRCode
-本项目是对SGQRCode做了简单的修改，增加了拉近放大功能
+本项目是对SGQRCode做了简单的修改，增加了拉近放大功能，原项目连接https://github.com/kingsic/SGQRCode
 
 
 ## 主要内容的介绍
